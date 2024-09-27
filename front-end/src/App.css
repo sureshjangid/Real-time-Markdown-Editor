@@ -1,0 +1,29 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.editor-preview-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.markdown-editor {
+  width: 45%;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.html-preview {
+  width: 45%;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
